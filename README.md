@@ -17,7 +17,7 @@ We have released the following checkpoints:
 
 |          Checkpoint           | Description                                                                                                                                |
 | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
-|           Geno-Zero           | Evaluated directly in zero-shot mode after Phase~III without further fine-tuning.                                                          |
+|           Geno-Zero           | checkpoint after Phase~III.                                                          |
 
 
 You can download the weights from:
