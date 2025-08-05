@@ -21,10 +21,10 @@ Please follow the steps below:
    cd Geno
    ```
 3. Create and activate the Conda environment using the provided environment.yml file:
-  ```bash
-  conda env create -f environment.yml
-  conda activate geno_moba2
-  ```
+   ```bash
+   conda env create -f environment.yml
+   conda activate geno_moba2
+   ```
 
 **Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
 
