@@ -8,7 +8,7 @@ This repo contains the code and models for "[Foundation Model for Joint Reasonin
 
 ## Model
 
-### Environment Setup
+### Getting start
 
 This project uses Conda for virtual environment management. An `environment.yml` file is provided for quick reproduction of the development environment.
 
@@ -24,6 +24,14 @@ Please follow the steps below:
    ```bash
    conda env create -f environment.yml
    conda activate geno
+   ```
+4. Download checkpoints and tokenizer and put them under this directory
+   ```bash
+   mkdir ckpt
+   ```
+5. Run demo script:
+   ```
+   python demo.py
    ```
 
 **Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
