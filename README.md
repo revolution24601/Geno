@@ -67,7 +67,12 @@ Geno-Zero refers to our model evaluated in zero-shot mode. Tasks are grouped by 
 | **Histone Mark Prediction (Yeast)** | *Average*          | *0.7639*    | *0.7653*  | *0.7548*   | *0.7968*   |
 
 2. token-level tasks
+# Macro F1-score on Token-level Annotation Tasks
+
 All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. **NT-500M-FT**, **EVO2-FT**, and **CD-GPT-FT** refer to decoder-head fine-tuned variants of their respective base models.
+
+
+
 | Model              | Benchmark Task (CDXBench) | Zero-shot Annotation |        |        |        |
 | ------------------ | ------------------------- | -------------------- | ------ | ------ | ------ |
 |                    |                           | CDS                  | EXON   | mRNA   | lncRNA |
