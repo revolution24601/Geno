@@ -62,7 +62,7 @@ Tasks are grouped by biological categories. Bolded values indicate the best scor
 |                                     | EMP\_H4            | **0.8828**  | 0.8826    | 0.8746     | 0.8199     |
 |                                     | EMP\_H4ac          | 0.7108      | 0.7150    | 0.6911     | **0.782**  |
 |                                     | EMP\_H3            | 0.8575      | 0.8483    | **0.8749** | 0.8242     |
-| **Histone Mark Prediction (Yeast)** | *Average*          | ***0.7639***    | *0.7653*  | *0.7548*   | *0.7968*   |
+| **Histone Mark Prediction (Yeast)** | *Average*          | *0.7639*    | *0.7653*  | *0.7548*   | ***0.7968***   |
 
 2. token-level tasks
 # Macro F1-score on Token-level Annotation Tasks
