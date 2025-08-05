@@ -24,7 +24,7 @@ You can download the weights from:
 ## Results
 1. sequence-level tasks
 We evaluated our model on a diverse set of genomic tasks drawn from the GUE benchmark suites. These tasks are organized according to the core categories of biological inference, including the identification of the transcription factor (TF) binding site, the classification of the promoter and the core promoter, the recognition of the splice site, the prediction of histone marks and the detection of the long-range enhancer-promoter interaction.
-Geno-Zero refers to our model evaluated in zero-shot mode. Tasks are grouped by biological categories. Bolded values indicate the best score among the four models either per row (i.e., per dataset) or in the average row of each task type.
+Tasks are grouped by biological categories. Bolded values indicate the best score among the four models either per row (i.e., per dataset) or in the average row of each task type.
 
 | Task Type                           | Dataset            | Geno-Zero-FT   | NT-500M-FT   | EVO2-FT       | CD-GPT-FT     |
 | ----------------------------------- | ------------------ | ----------- | --------- | ---------- | ---------- |
