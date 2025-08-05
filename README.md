@@ -5,10 +5,6 @@ This repo contains the code and models for "[Foundation Model for Joint Reasonin
 ## Contents
 1. [Model](#model)
 2. [Results](#results)
-3. [Setup](#setup)
-4. [Getting Start](#getting-start)
-5. [Finetune](#finetune-cd-gpt-on-your-own-datasets)
-6. [Citation](#citation)
 
 ## Model
 **Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
