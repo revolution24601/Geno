@@ -69,7 +69,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
 
 
 
-| Model              | Benchmark Task (CDXBench) | Zero-shot Annotation |        |        |        |
+| Model              | Benchmark Task (CDXBench) | Zero-shot Annotation                            |
 | ------------------ | ------------------------- | -------------------- | ------ | ------ | ------ |
 |                    |                           | CDS                  | EXON   | mRNA   | lncRNA |
 | NT-500M-FT         | 0.3430                    | -                    | -      | -      | -      |
