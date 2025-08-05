@@ -67,15 +67,13 @@ Geno-Zero refers to our model evaluated in zero-shot mode. Tasks are grouped by 
 
 All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. **NT-500M-FT**, **EVO2-FT**, and **CD-GPT-FT** refer to decoder-head fine-tuned variants of their respective base models.
 
-
-
-| Model              | Benchmark Task (CDXBench) | Zero-shot Annotation                                |
-| ------------------ | ------------------------- | --------------------------------------------------- |
-|                    |                           | CDS     | EXON    | mRNA    | lncRNA            |
-| NT-500M-FT         | 0.3430                    | -       | -       | -       | -                 |
-| EVO2-FT            | 0.2820                    | -       | -       | -       | -                 |
-| CD-GPT-FT          | 0.3182                    | -       | -       | -       | -                 |
-| Geno-Base-FT       | 0.3916                    | -       | -       | -       | -                 |
-| Geno-Base-Continua | **0.4292**                | -       | -       | -       | -                 |
-|                    |                           |         |         |         |                   |
-| Geno-Zero          | 0.5472                    | 0.6562  | 0.7546  | 0.5753  | 0.5813            |
+| Model              | Benchmark Task (CDXBench) | Zero-shot Annotation |        |        |        |
+| ------------------ | ------------------------- | -------------------- | ------ | ------ | ------ |
+|                    |                           | CDS                  | EXON   | mRNA   | lncRNA |
+| NT-500M-FT         | 0.3430                    | -                    | -      | -      | -      |
+| EVO2-FT            | 0.2820                    | -                    | -      | -      | -      |
+| CD-GPT-FT          | 0.3182                    | -                    | -      | -      | -      |
+| Geno-Base-FT       | 0.3916                    | -                    | -      | -      | -      |
+| Geno-Base-Continua | **0.4292**                | -                    | -      | -      | -      |
+|                    |                           |                      |        |        |        |
+| Geno-Zero          | 0.5472                    | 0.6562               | 0.7546 | 0.5753 | 0.5813 |
