@@ -1,4 +1,4 @@
-<img width="2020" height="902" alt="image" src="https://github.com/user-attachments/assets/88388ef0-0ad8-412d-8494-b47c03e6cd99" /># Foundation Model for Joint Reasoning Over Genomic Sequence Syntax and Biological Semantics
+# Foundation Model for Joint Reasoning Over Genomic Sequence Syntax and Biological Semantics
 
 This repo contains the code and models for "[Foundation Model for Joint Reasoning Over Genomic Sequence Syntax and Biological Semantics]()".
 
