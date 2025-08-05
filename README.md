@@ -7,6 +7,25 @@ This repo contains the code and models for "[Foundation Model for Joint Reasonin
 2. [Results](#results)
 
 ## Model
+
+### Environment Setup
+
+This project uses Conda for virtual environment management. An `environment.yml` file is provided for quick reproduction of the development environment.
+
+Please follow the steps below:
+
+1. Make sure you have [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed.
+2. Clone this repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/revolution24601/Geno.git
+   cd Geno
+   ```
+3. Create and activate the Conda environment using the provided environment.yml file:
+  ```bash
+  conda env create -f environment.yml
+  conda activate geno_moba2
+  ```
+
 **Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
 
 <img width="2020" height="902" alt="image" src="https://github.com/user-attachments/assets/15b7a089-7e21-47fb-b4a4-bbf9427a2f84" />
