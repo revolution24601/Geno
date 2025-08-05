@@ -24,6 +24,8 @@ Please follow the steps below:
    ```bash
    conda env create -f environment.yml
    pip install mamba-ssm==2.2.2
+   cd MoBA
+   pip install .
    conda activate geno
    ```
 4. Download checkpoints and tokenizer and put them under this directory
