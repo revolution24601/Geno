@@ -1,4 +1,4 @@
-# Foundation Model for Joint Reasoning Over Genomic Sequence Syntax and Biological Semantics
+<img width="2020" height="902" alt="image" src="https://github.com/user-attachments/assets/88388ef0-0ad8-412d-8494-b47c03e6cd99" /># Foundation Model for Joint Reasoning Over Genomic Sequence Syntax and Biological Semantics
 
 This repo contains the code and models for "[Foundation Model for Joint Reasoning Over Genomic Sequence Syntax and Biological Semantics]()".
 
@@ -8,6 +8,8 @@ This repo contains the code and models for "[Foundation Model for Joint Reasonin
 
 ## Model
 **Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
+
+<img width="2020" height="902" alt="image" src="https://github.com/user-attachments/assets/15b7a089-7e21-47fb-b4a4-bbf9427a2f84" />
 
 We have released the following checkpoints:
 
