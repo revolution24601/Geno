@@ -10,15 +10,12 @@ if __name__ == "__main__":
     config = "params_moba_cds.config"
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
     CKPT_PATH = "./ckpt"
-    # target_labels = "<t_mrna><t_cds><t_lnc_rna><unk_token>"
-    target_labels = "<t_exon><t_gene><t_mrna><t_cds><t_lnc_rna><t_trna><unk_token>"
-    # target_labels = '<t_mrna><t_ncrna><t_exon><t_cds><unk_token>'
     gemo_model = GenoModel(CKPT_PATH,
                            device=DEVICE,
                            model_name=model,
                            tokenizer_file=tokenizer,
                            config=config,
-                           target_labels=target_labels)
+                           target_labels=None)
 
     sequence = 'acgtatcgatcg'
     print("input ids: ", gemo_model.tokenizer.encode(sequence))
@@ -39,7 +36,7 @@ if __name__ == "__main__":
     # embeddings
     hidden_states = outputs.hidden_states
     print('hidden_states (batch, length, embedding_dim): ', hidden_states.shape)
-    # print('hidden_states (batch, length, embedding_dim): ', hidden_states[0, -1, :200])
+
 
 
 
