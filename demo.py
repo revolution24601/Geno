@@ -5,7 +5,7 @@ import json
 from loguru import logger
 
 if __name__ == "__main__":
-    model = "model_Zero.pth"
+    model = "model_ZERO.pth"
     tokenizer = "tokenizer_v2_k6"
     config = "params_moba_cds.config"
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
