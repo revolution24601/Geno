@@ -49,7 +49,7 @@ We have released the following checkpoints:
 
 |          Checkpoint           | Description                                                                                                                                |
 | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
-|           Geno-Zero           | checkpoint after Phase~III.                                                          |
+|           Geno-ZERO           | checkpoint after Phase~III.                                                          |
 
 
 ## Results
