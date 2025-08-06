@@ -51,9 +51,6 @@ We have released the following checkpoints:
 | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
 |           Geno-Zero           | checkpoint after Phase~III.                                                          |
 
-                                               |
-
-
 
 ## Results
 1. sequence-level tasks
