@@ -14,7 +14,7 @@ This repo contains the code and models for "[Foundation Model for Joint Reasonin
 
 ## Usage
 
-This project incorporates key components from the [MoonshotAI/MoBA](https://github.com/MoonshotAI/MoBA/tree/master) repository. All usage of code and concepts from the MoBA project complies with the license terms specified in the original repository. We sincerely appreciate the MoonshotAI team for open-sourcing this valuable resource.
+This project incorporates key components from the [MoonshotAI/MoBA](https://github.com/MoonshotAI/MoBA/tree/master) and [mamba_ssm](https://github.com/state-spaces/mamba/releases) repositories. All usage of code and concepts from these projects complies with the license terms specified in the original repository. We sincerely appreciate the MoonshotAI team and Mamba-ssm team for open-sourcing this valuable resource.
 
 We use Conda for virtual environment management. An `environment.yml` file is provided for quick reproduction of the development environment.
 
