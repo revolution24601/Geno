@@ -27,6 +27,7 @@ Please follow the steps below:
    pip install mamba-ssm==2.2.2  # If there are issues during installation, you can manually download the file mamba_ssm-2.2.2+cu122torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl and install it yourself.
    cd MoBA
    pip install .
+   cd ..
    ```
 4. Download checkpoints and tokenizer and put them under this directory
    ```bash
