@@ -37,6 +37,7 @@ Please follow the steps below:
    ```
    python demo.py
    ```
+This project incorporates key components from the [MoonshotAI/MoBA](https://github.com/MoonshotAI/MoBA/tree/master) repository. All usage of code and concepts from the MoBA project complies with the license terms specified in the original repository. We sincerely appreciate the MoonshotAI team for open-sourcing this valuable resource.
 
 **Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
 
@@ -110,3 +111,4 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
 | Geno-Base-Continua | **0.4292**                | -                    | -      | -      | -      |
 |                    |                           |                      |        |        |        |
 | Geno-Zero          | 0.5472                    | 0.6562               | 0.7546 | 0.5753 | 0.5813 |
+
