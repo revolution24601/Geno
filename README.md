@@ -100,12 +100,77 @@ Tasks are grouped by biological categories. Bolded values indicate the best scor
 
 All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. **NT-500M-FT**, **EVO2-FT**, and **CD-GPT-FT** refer to decoder-head fine-tuned variants of their respective base models.
 
-| Model              | Benchmark Task (CDXBench) | Zero-shot Annotation |        |        |        |
-| ------------------ | ------------------------- | -------------------- | ------ | ------ | ------ |
-|                    |                           | CDS                  | EXON   | mRNA   | lncRNA |
-| NT-500M-FT         | 0.3430                    | -                    | -      | -      | -      |
-| EVO2-FT            | 0.2820                    | -                    | -      | -      | -      |
-| CD-GPT-FT          | 0.3182                    | -                    | -      | -      | -      |
+<table>
+  <caption>
+    Macro F1-score on token-level annotation tasks. All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. <strong>NT-500M-FT</strong>, <strong>EVO2-FT</strong>, and <strong>CD-GPT-FT</strong> refer to decoder-head fine-tuned variants of their respective base models.
+  </caption>
+  <thead>
+    <tr>
+      <th style="text-align: left; font-weight: bold;">Model</th>
+      <th style="font-weight: bold;">Benchmark Task (CDXBench)</th>
+      <th colspan="4" style="font-weight: bold; text-align: center;">Zero-shot Annotation</th>
+    </tr>
+    <tr>
+      <th style="text-align: left; font-weight: bold;"></th>
+      <th style="font-weight: bold;"></th>
+      <th style="font-weight: bold;">CDS</th>
+      <th style="font-weight: bold;">EXON</th>
+      <th style="font-weight: bold;">mRNA</th>
+      <th style="font-weight: bold;">lncRNA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">NT-500M-FT</td>
+      <td>0.3430</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">EVO2-FT</td>
+      <td>0.2820</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">CD-GPT-FT</td>
+      <td>0.3182</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Geno-Base-FT</td>
+      <td>0.3916</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Geno-Base-Continua</td>
+      <td><strong>0.4292</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; border-top: 2px solid #ddd;">Geno-Zero</td>
+      <td style="border-top: 2px solid #ddd;">0.5472</td>
+      <td style="border-top: 2px solid #ddd;">0.6562</td>
+      <td style="border-top: 2px solid #ddd;">0.7546</td>
+      <td style="border-top: 2px solid #ddd;">0.5753</td>
+      <td style="border-top: 2px solid #ddd;">0.5813</td>
+    </tr>
+  </tbody>
+</table>
+
 | Geno-Base-FT       | 0.3916                    | -                    | -      | -      | -      |
 | Geno-Base-Continua | **0.4292**                | -                    | -      | -      | -      |
 |                    |                           |                      |        |        |        |
