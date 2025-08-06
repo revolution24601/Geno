@@ -105,7 +105,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
   </caption>
   <thead>
     <tr>
-      <th style="text-align: left; font-weight: bold; vertical-align: middle;" rowspan="2">Model</th>
+      <th style="text-align: middle; font-weight: bold; vertical-align: left;" rowspan="2">Model</th>
       <th style="font-weight: bold; vertical-align: middle;" rowspan="2">Benchmark Task (CDXBench)</th>
       <th colspan="4" style="font-weight: bold; text-align: center; vertical-align: middle;">Zero-shot Annotation</th>
     </tr>
@@ -118,7 +118,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left;">NT-500M-FT</td>
+      <td style="text-align: center;">NT-500M-FT</td>
       <td>0.3430</td>
       <td>-</td>
       <td>-</td>
@@ -126,7 +126,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
       <td>-</td>
     </tr>
     <tr>
-      <td style="text-align: left;">EVO2-FT</td>
+      <td style="text-align: center;">EVO2-FT</td>
       <td>0.2820</td>
       <td>-</td>
       <td>-</td>
@@ -134,7 +134,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
       <td>-</td>
     </tr>
     <tr>
-      <td style="text-align: left;">CD-GPT-FT</td>
+      <td style="text-align: center;">CD-GPT-FT</td>
       <td>0.3182</td>
       <td>-</td>
       <td>-</td>
@@ -142,7 +142,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
       <td>-</td>
     </tr>
     <tr>
-      <td style="text-align: left;">Geno-Base-FT</td>
+      <td style="text-align: center;">Geno-Base-FT</td>
       <td>0.3916</td>
       <td>-</td>
       <td>-</td>
@@ -150,7 +150,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
       <td>-</td>
     </tr>
     <tr>
-      <td style="text-align: left;">Geno-Base-Continua</td>
+      <td style="text-align: center;">Geno-Base-Continua</td>
       <td><strong>0.4292</strong></td>
       <td>-</td>
       <td>-</td>
@@ -158,7 +158,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
       <td>-</td>
     </tr>
     <tr>
-      <td style="text-align: left; border-top: 2px solid #ddd;">Geno-Zero</td>
+      <td style="text-align: center; border-top: 2px solid #ddd;">Geno-Zero</td>
       <td style="border-top: 2px solid #ddd;">0.5472</td>
       <td style="border-top: 2px solid #ddd;">0.6562</td>
       <td style="border-top: 2px solid #ddd;">0.7546</td>
