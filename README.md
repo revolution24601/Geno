@@ -4,11 +4,15 @@ This repo contains the code and models for "[Foundation Model for Joint Reasonin
 
 ## Contents
 1. [Model](#model)
-2. [Results](#results)
+2. [Usage](#usage)
+3. [Results](#results)
 
 ## Model
+**Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
 
-### Getting start
+<img width="2020" height="902" alt="image" src="https://github.com/user-attachments/assets/15b7a089-7e21-47fb-b4a4-bbf9427a2f84" />
+
+## Usage
 
 This project incorporates key components from the [MoonshotAI/MoBA](https://github.com/MoonshotAI/MoBA/tree/master) repository. All usage of code and concepts from the MoBA project complies with the license terms specified in the original repository. We sincerely appreciate the MoonshotAI team for open-sourcing this valuable resource.
 
@@ -39,20 +43,15 @@ Please follow the steps below:
    ```
    python demo.py
    ```
-
-**Geno** is a biologically grounded foundation model that unifies sequence generation, modality translation, and token-level annotation within a single causal modeling framework. A three-phase pretraining curriculum, coupled with domain-informed architectural design and centered on task-conditioned prompting and dual-label supervision, enables bridging of sequence syntax and biological semantics across multiple levels of resolution. This design allows the model to perform both macro-scale regulatory inference and nucleotide-resolution annotation without task-specific architecture changes.
-
-<img width="2020" height="902" alt="image" src="https://github.com/user-attachments/assets/15b7a089-7e21-47fb-b4a4-bbf9427a2f84" />
-
+You can download the weights from:
+- [Google Drive](https://drive.google.com/drive/folders/1WaoYB-azdB7oBOHiy7nzO-C4ObcB-H2u?usp=drive_link)
+- 
 We have released the following checkpoints:
-
 |          Checkpoint           | Description                                                                                                                                |
 | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
 |           Geno-Zero           | checkpoint after Phase~III.                                                          |
 
 
-You can download the weights from:
-- [Google Drive](https://drive.google.com/drive/folders/1WaoYB-azdB7oBOHiy7nzO-C4ObcB-H2u?usp=drive_link)
 
 ## Results
 1. sequence-level tasks
