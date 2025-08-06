@@ -105,7 +105,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
   </caption>
   <thead>
     <tr>
-      <th style="text-align: left; font-weight: bold; vertical-align: left;" rowspan="2">Model</th>
+      <th style="text-align: center; font-weight: bold; vertical-align: left;" rowspan="2">Model</th>
       <th style="font-weight: bold; vertical-align: middle;" rowspan="2">Benchmark Task (CDXBench)</th>
       <th colspan="4" style="font-weight: bold; text-align: center; vertical-align: middle;">Zero-shot Annotation</th>
     </tr>
