@@ -23,10 +23,10 @@ Please follow the steps below:
 3. Create and activate the Conda environment using the provided environment.yml file:
    ```bash
    conda env create -f environment.yml
+   conda activate geno
    pip install mamba-ssm==2.2.2
    cd MoBA
    pip install .
-   conda activate geno
    ```
 4. Download checkpoints and tokenizer and put them under this directory
    ```bash
