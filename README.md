@@ -170,9 +170,3 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
     </tr>
   </tbody>
 </table>
-
-| Geno-Base-FT       | 0.3916                    | -                    | -      | -      | -      |
-| Geno-Base-Continua | **0.4292**                | -                    | -      | -      | -      |
-|                    |                           |                      |        |        |        |
-| Geno-Zero          | 0.5472                    | 0.6562               | 0.7546 | 0.5753 | 0.5813 |
-
