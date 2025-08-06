@@ -45,7 +45,6 @@ Please follow the steps below:
    ```
 You can download the weights from:
 - [Google Drive](https://drive.google.com/drive/folders/1WaoYB-azdB7oBOHiy7nzO-C4ObcB-H2u?usp=drive_link)
-- 
 We have released the following checkpoints:
 |          Checkpoint           | Description                                                                                                                                |
 | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
