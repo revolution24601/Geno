@@ -99,24 +99,21 @@ Tasks are grouped by biological categories. Bolded values indicate the best scor
 # Macro F1-score on Token-level Annotation Tasks
 
 All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. **NT-500M-FT**, **EVO2-FT**, and **CD-GPT-FT** refer to decoder-head fine-tuned variants of their respective base models.
-
 <table>
   <caption>
     Macro F1-score on token-level annotation tasks. All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. <strong>NT-500M-FT</strong>, <strong>EVO2-FT</strong>, and <strong>CD-GPT-FT</strong> refer to decoder-head fine-tuned variants of their respective base models.
   </caption>
   <thead>
     <tr>
-      <th style="text-align: left; font-weight: bold;">Model</th>
-      <th style="font-weight: bold;">Benchmark Task (CDXBench)</th>
-      <th colspan="4" style="font-weight: bold; text-align: center;">Zero-shot Annotation</th>
+      <th style="text-align: left; font-weight: bold; vertical-align: middle;" rowspan="2">Model</th>
+      <th style="font-weight: bold; vertical-align: middle;" rowspan="2">Benchmark Task (CDXBench)</th>
+      <th colspan="4" style="font-weight: bold; text-align: center; vertical-align: middle;">Zero-shot Annotation</th>
     </tr>
     <tr>
-      <th style="text-align: left; font-weight: bold;"></th>
-      <th style="font-weight: bold;"></th>
-      <th style="font-weight: bold;">CDS</th>
-      <th style="font-weight: bold;">EXON</th>
-      <th style="font-weight: bold;">mRNA</th>
-      <th style="font-weight: bold;">lncRNA</th>
+      <th style="font-weight: bold; text-align: center;">CDS</th>
+      <th style="font-weight: bold; text-align: center;">EXON</th>
+      <th style="font-weight: bold; text-align: center;">mRNA</th>
+      <th style="font-weight: bold; text-align: center;">lncRNA</th>
     </tr>
   </thead>
   <tbody>
@@ -170,3 +167,4 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
     </tr>
   </tbody>
 </table>
+
