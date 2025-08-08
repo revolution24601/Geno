@@ -159,7 +159,7 @@ All baselines adopt the conventional fine-tuning setup with a frozen pretrained 
     </tr>
     <tr>
       <td style="text-align: center; border-top: 2px solid #ddd;">Geno-Zero</td>
-      <td style="border-top: 2px solid #ddd;">0.5472</td>
+      <td style="border-top: 2px solid #ddd;">0.4316</td>
       <td style="border-top: 2px solid #ddd;">0.6562</td>
       <td style="border-top: 2px solid #ddd;">0.7546</td>
       <td style="border-top: 2px solid #ddd;">0.5753</td>
