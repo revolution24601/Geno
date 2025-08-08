@@ -53,7 +53,7 @@ We have released the following checkpoints:
 
 
 ## Results
-# 1. sequence-level tasks
+### 1. sequence-level tasks
 We evaluated our model on a diverse set of genomic tasks drawn from the GUE benchmark suites. These tasks are organized according to the core categories of biological inference, including the identification of the transcription factor (TF) binding site, the classification of the promoter and the core promoter, the recognition of the splice site, the prediction of histone marks and the detection of the long-range enhancer-promoter interaction.
 Tasks are grouped by biological categories. Bolded values indicate the best score among the four models either per row (i.e., per dataset) or in the average row of each task type.
 
@@ -95,7 +95,7 @@ Tasks are grouped by biological categories. Bolded values indicate the best scor
 |                                     | EMP\_H3            | 0.8575      | 0.8483    | **0.8749** | 0.8242     |
 | **Histone Mark Prediction (Yeast)** | *Average*          | *0.7639*    | *0.7653*  | *0.7548*   | ***0.7968***   |
 
-# 2. token-level tasks
+### 2. token-level tasks
 All baselines adopt the conventional fine-tuning setup with a frozen pretrained encoder and a task-specific CNN-based decoder head. **NT-500M-FT**, **EVO2-FT**, and **CD-GPT-FT** refer to decoder-head fine-tuned variants of their respective base models.
 <table>
   <caption>
